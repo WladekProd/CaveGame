@@ -1,0 +1,21 @@
+{
+	"name": "AJAX",
+	"plugin-id": "AJAX",
+	"sid": 177150046642901,
+	"singleglobal-inst": {
+		"type": "AJAX",
+		"properties": {},
+		"uid": 3,
+		"template": {
+			"mode": "none",
+			"templateName": "",
+			"sourceTemplateName": "",
+			"components": [
+				{
+					"id": "plugin",
+					"component": "[{\"key\":\"plugin\",\"state\":\"[]\"}]"
+				}
+			]
+		}
+	}
+}

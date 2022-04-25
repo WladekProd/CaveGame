@@ -1,0 +1,50 @@
+{
+	"name": "Slot",
+	"plugin-id": "Sprite",
+	"sid": 623973351741894,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Item",
+			"type": "string",
+			"desc": "",
+			"sid": 955984096679345
+		},
+		{
+			"name": "ItemCount",
+			"type": "number",
+			"desc": "",
+			"sid": 113921360946471
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 974290,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 242929879486171,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
