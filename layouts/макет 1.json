@@ -1,12 +1,12 @@
 {
-	"name": "Nazzy",
+	"name": "Макет 1",
 	"layers": [
 		{
-			"name": "Layer 0",
+			"name": "Слой 0",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [],
-			"sid": 844246740042293,
+			"sid": 304492680527944,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -17,9 +17,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				1,
+				1,
+				1,
 				1
 			],
 			"isTransparent": false,
@@ -35,14 +35,14 @@
 			"global": false
 		}
 	],
-	"sid": 593083231714510,
+	"sid": 755862409730551,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 2160,
-	"height": 3840,
+	"width": 1080,
+	"height": 1920,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Nazzy"
+	"eventSheet": "Список событий 1"
 }
