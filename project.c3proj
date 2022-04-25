@@ -5,11 +5,101 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Sprite font",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r291",
+			"bundled": false
+		}
+	],
 	"uniqueId": "cjsa2myds3h",
 	"objectTypes": {
-		"items": [],
-		"subfolders": []
+		"items": [
+			"AJAX",
+			"Touch",
+			"DebugConsole",
+			"Keyboard",
+			"Button"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"InventoryItem",
+					"Slot",
+					"Items",
+					"ItemCount"
+				],
+				"subfolders": [],
+				"name": "Inventory"
+			}
+		]
 	},
 	"autosaveData": null,
 	"containers": [],
@@ -19,13 +109,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Макет 1"
+			"Wladek",
+			"Nazzy"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Список событий 1"
+			"Wladek",
+			"Nazzy"
 		],
 		"subfolders": []
 	},
@@ -112,8 +204,38 @@
 			"subfolders": []
 		},
 		"general": {
-			"items": [],
-			"subfolders": []
+			"items": [
+				{
+					"name": "Items.json",
+					"type": "application/json",
+					"sid": 468754984647426,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": [
+				{
+					"items": [],
+					"subfolders": [
+						{
+							"items": [
+								{
+									"name": "torch.png",
+									"type": "image/png",
+									"sid": 577631552294451,
+									"file-info": {
+										"purpose": "none"
+									}
+								}
+							],
+							"subfolders": [],
+							"name": "Items"
+						}
+					],
+					"name": "images"
+				}
+			]
 		}
 	},
 	"timelines": {
@@ -138,7 +260,7 @@
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-integer-scale",
+		"fullscreenMode": "scale-outer",
 		"fullscreenQuality": "low",
 		"viewportFit": "auto",
 		"backgroundColor": [
@@ -160,7 +282,7 @@
 			1,
 			0
 		],
-		"orientations": "landscape",
+		"orientations": "portrait",
 		"webgpu": "auto",
 		"gpuPreference": "high-performance",
 		"scriptsType": "module",
@@ -171,7 +293,7 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "splash",
+		"loaderStyle": "progress",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
