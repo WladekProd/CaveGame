@@ -5,21 +5,10 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [
-		{
-			"type": "plugin",
-			"id": "Shape3D",
-			"name": "3D фигуры",
-			"author": "Scirra",
-			"version": "r291",
-			"bundled": false
-		}
-	],
+	"usedAddons": [],
 	"uniqueId": "cjsa2myds3h",
 	"objectTypes": {
-		"items": [
-			"3DФигуры"
-		],
+		"items": [],
 		"subfolders": []
 	},
 	"autosaveData": null,
