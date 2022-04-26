@@ -2,7 +2,7 @@
     "c2array": true,
     "size": [
         5,
-        4,
+        6,
         1
     ],
     "data": [
@@ -11,13 +11,19 @@
                 "Факел"
             ],
             [
-                "Топор"
+                "Кирка"
             ],
             [
-                "Яблоко"
+                "Ягода"
             ],
             [
                 "Дом"
+            ],
+            [
+                "Уголь"
+            ],
+            [
+                "Камень"
             ]
         ],
         [
@@ -25,13 +31,19 @@
                 "torch"
             ],
             [
-                "axe"
+                "pickaxe"
             ],
             [
-                "apple"
+                "berry"
             ],
             [
                 "home"
+            ],
+            [
+                "coal"
+            ],
+            [
+                "stone"
             ]
         ],
         [
@@ -39,13 +51,19 @@
                 "torch.png"
             ],
             [
-                "axe.png"
+                "pickaxe.png"
             ],
             [
-                "apple.png"
+                "berry.png"
             ],
             [
                 "home.png"
+            ],
+            [
+                "coal.png"
+            ],
+            [
+                "stone.png"
             ]
         ],
         [
@@ -60,6 +78,12 @@
             ],
             [
                 1
+            ],
+            [
+                8
+            ],
+            [
+                8
             ]
         ],
         [
@@ -67,13 +91,19 @@
                 "item"
             ],
             [
-                "Instrument"
+                "instrument"
             ],
             [
-                "Food"
+                "food"
             ],
             [
-                "Build"
+                "build"
+            ],
+            [
+                "item"
+            ],
+            [
+                "item"
             ]
         ]
     ]
